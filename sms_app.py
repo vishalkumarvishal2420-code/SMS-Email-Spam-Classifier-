@@ -17,6 +17,7 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
+nltk.download('stopwords')
 # text perprocess
 def transform_text(text):
   text = text.lower()
