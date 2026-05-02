@@ -10,3 +10,5 @@ Original file is located at
 streamlit
 nltk
 sklearn
+pandas 
+numpy 
