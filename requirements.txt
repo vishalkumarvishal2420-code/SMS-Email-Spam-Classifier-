@@ -9,6 +9,6 @@ Original file is located at
 
 streamlit
 nltk
-sklearn
+scikit-learn 
 pandas 
 numpy 
