@@ -13,10 +13,12 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.download('stopwords')
+
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
-nltk.download('stopwords')
+from nltk.corpus import stopwords 
 # text perprocess
 def transform_text(text):
   text = text.lower()
