@@ -42,7 +42,7 @@ def transform_text(text):
 
   for char in text:
     y.append(ps.stem(char))
-  return ' '.join()
+  return ' '.join(y)
 
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
