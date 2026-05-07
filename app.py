@@ -38,7 +38,7 @@ def transform_text(text):
     if word not in stopwords.words('english') and word not in string.punctuation:
       y.append(word)
   text = y[:]
-  y.clear
+  y.clear()
 
   for char in text:
     y.append(ps.stem(char))
