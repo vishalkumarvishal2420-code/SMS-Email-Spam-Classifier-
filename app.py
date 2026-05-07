@@ -14,8 +14,8 @@ import pickle
 import string
 import nltk
 nltk.download('stopwords')
-nltk.dowmload('punkt')
-nltk.dowmload('punkt_tab')
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
