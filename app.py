@@ -15,6 +15,7 @@ import string
 import nltk
 nltk.download('stopwords')
 nltk.dowmload('punkt')
+nltk.dowmload('punkt_tab')
 
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
